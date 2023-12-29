@@ -1,0 +1,215 @@
+# FAQ https://stackoverflow.com/questions/48197580/jekyll-theme-does-not-work-on-github-pages-but-works-locally
+permalink:           pretty
+
+# Setup
+title:               'Watch Your Hack Translation'
+url:                 https://nhtlongcs.github.io
+baseurl:             '/watchyourhack-vnm' # / + your base url 
+homepage_title:      Home
+default_lang:        'vi'
+
+# About/contact
+author:
+name:                nhtlongcs
+url:                 https://twitter.com/nhtlongcs
+github:
+  repo:              https://github.com/nhtlongcs/watchyourhack-vnm
+
+# Custom vars
+version:             0.0.1
+
+src:                 "."
+default_theme:       "Light"
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "custom"
+
+# For Maths
+markdown:            kramdown
+
+# To use hljs, disable the default highlighter
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+  math_engine: null
+
+exclude:
+  - jekyllbook
+  - vi/index.md
+  - vendor
+
+################################### Vietnamese ####################################
+chapters:
+  - path: vi/section_1/section_1.md
+    sections: []
+  - path: vi/section_2/section_2.md
+    sections: []
+  - path: vi/section_3/section_3.md
+    sections:
+      - path: vi/section_3/section_4.md
+      - path: vi/section_3/section_5.md
+      - path: vi/section_3/section_6.md
+      - path: vi/section_3/section_7.md
+      - path: vi/section_3/section_8.md
+      - path: vi/section_3/section_9.md
+      - path: vi/section_3/section_10.md
+      - path: vi/section_3/section_11.md
+      - path: vi/section_3/section_12.md
+      - path: vi/section_3/section_13.md
+      - path: vi/section_3/section_14.md
+      - path: vi/section_3/section_15.md
+      - path: vi/section_3/section_16.md
+      - path: vi/section_3/section_17.md
+      - path: vi/section_3/section_18.md
+      - path: vi/section_3/section_19.md
+  - path: vi/section_20/section_20.md
+    sections:
+      - path: vi/section_20/section_21.md
+      - path: vi/section_20/section_22.md
+      - path: vi/section_20/section_23.md
+      - path: vi/section_20/section_24.md
+      - path: vi/section_20/section_25.md
+      - path: vi/section_20/section_26.md
+      - path: vi/section_20/section_27.md
+      - path: vi/section_20/section_28.md
+      - path: vi/section_20/section_29.md
+      - path: vi/section_20/section_30.md
+      - path: vi/section_20/section_31.md
+      - path: vi/section_20/section_32.md
+  - path: vi/section_33/section_33.md
+    sections:
+      - path: vi/section_33/section_34.md
+      - path: vi/section_33/section_35.md
+      - path: vi/section_33/section_36.md
+      - path: vi/section_33/section_37.md
+      - path: vi/section_33/section_38.md
+      - path: vi/section_33/section_39.md
+      - path: vi/section_33/section_40.md
+      - path: vi/section_33/section_41.md
+  - path: vi/section_42/section_42.md
+    sections:
+      - path: vi/section_42/section_43.md
+      - path: vi/section_42/section_44.md
+      - path: vi/section_42/section_45.md
+      - path: vi/section_42/section_46.md
+      - path: vi/section_42/section_47.md
+      - path: vi/section_42/section_48.md
+      - path: vi/section_42/section_49.md
+  - path: vi/section_50/section_50.md
+    sections:
+      - path: vi/section_50/section_51.md
+      - path: vi/section_50/section_52.md
+      - path: vi/section_50/section_53.md
+      - path: vi/section_50/section_54.md
+      - path: vi/section_50/section_55.md
+      - path: vi/section_50/section_56.md
+  - path: vi/section_57/section_57.md
+    sections:
+      - path: vi/section_57/section_58.md
+      - path: vi/section_57/section_59.md
+      - path: vi/section_57/section_60.md
+      - path: vi/section_57/section_61.md
+      - path: vi/section_57/section_62.md
+      - path: vi/section_57/section_63.md
+      - path: vi/section_57/section_64.md
+      - path: vi/section_57/section_65.md
+      - path: vi/section_57/section_66.md
+      - path: vi/section_57/section_67.md
+      - path: vi/section_57/section_68.md
+      - path: vi/section_57/section_69.md
+      - path: vi/section_57/section_70.md
+      - path: vi/section_57/section_71.md
+      - path: vi/section_57/section_72.md
+      - path: vi/section_57/section_73.md
+      - path: vi/section_57/section_74.md
+      - path: vi/section_57/section_75.md
+      - path: vi/section_57/section_76.md
+      - path: vi/section_57/section_77.md
+      - path: vi/section_57/section_78.md
+      - path: vi/section_57/section_79.md
+      - path: vi/section_57/section_80.md
+  - path: vi/section_81/section_81.md
+    sections: []
+
+
+# ################################### Mandarin ###################################
+# zh:
+#   title: '深度学习'
+#   prologues:
+#     - path: zh/about.md
+#   chapters:
+#     - path: zh/week01/01.md
+#       sections:
+#         - path: zh/week01/01-1.md
+#         - path: zh/week01/01-2.md
+#         - path: zh/week01/01-3.md
+#     - path: zh/week02/02.md
+#       sections:
+#         - path: zh/week02/02-1.md
+#         - path: zh/week02/02-2.md
+#         - path: zh/week02/02-3.md
+#     - path: zh/week03/03.md
+#       sections:
+#         - path: zh/week03/03-1.md
+#         - path: zh/week03/03-2.md
+#         - path: zh/week03/03-3.md
+#     - path: zh/week04/04.md
+#       sections:
+#         - path: zh/week04/04-1.md
+#     - path: zh/week05/05.md
+#       sections:
+#         - path: zh/week05/05-1.md
+#         - path: zh/week05/05-2.md
+#         - path: zh/week05/05-3.md
+#     - path: zh/week06/06.md
+#       sections:
+#         - path: zh/week06/06-1.md
+#         - path: zh/week06/06-2.md
+#         - path: zh/week06/06-3.md
+#     - path: zh/week07/07.md
+#       sections:
+#         - path: zh/week07/07-1.md
+#         - path: zh/week07/07-2.md
+#         - path: zh/week07/07-3.md
+#     - path: zh/week08/08.md
+#       sections:
+#         - path: zh/week08/08-1.md
+#         - path: zh/week08/08-2.md
+#         - path: zh/week08/08-3.md
+#     - path: zh/week09/09.md
+#       sections:
+#         - path: zh/week09/09-1.md
+#         - path: zh/week09/09-2.md
+#         - path: zh/week09/09-3.md
+#     - path: zh/week10/10.md
+#       sections:
+#         - path: zh/week10/10-1.md
+#         - path: zh/week10/10-2.md
+#         - path: zh/week10/10-3.md
+#     - path: zh/week11/11.md
+#       sections:
+#         - path: zh/week11/11-1.md
+#         - path: zh/week11/11-2.md
+#         - path: zh/week11/11-3.md
+#     - path: zh/week12/12.md
+#       sections:
+#         - path: zh/week12/12-1.md
+#         - path: zh/week12/12-2.md
+#         - path: zh/week12/12-3.md
+#     - path: zh/week13/13.md
+#       sections:
+#         - path: zh/week13/13-1.md
+#         - path: zh/week13/13-2.md
+#         - path: zh/week13/13-3.md
+#     - path: zh/week14/14.md
+#       sections:
+#         - path: zh/week14/14-1.md
+#         - path: zh/week14/14-2.md
+#         - path: zh/week14/14-3.md
+#     - path: zh/week15/15.md
+#       sections:
+#         - path: zh/week15/15-1.md
+#         - path: zh/week15/15-2.md
