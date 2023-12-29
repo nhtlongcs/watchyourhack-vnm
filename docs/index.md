@@ -1,5 +1,4 @@
 ---
-layout: default
 title: Watch Your Hack
 author: Daniël Verlaan
 lang-ref: home
